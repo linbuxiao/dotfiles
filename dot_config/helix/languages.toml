@@ -1,0 +1,10 @@
+[[language]]
+name = "go"
+file-types = ["go", "gomod", "gowork", "gotmpl"]
+roots = ["Gopkg.toml", "go.mod"]
+language-server = { command = "gopls" }
+
+[[language]]
+name = "python"
+file-types = ["py"]
+language-server = { command = "pylsp" }

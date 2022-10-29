@@ -1,1 +1,4 @@
-theme = "Gruvbox"
+theme = "gruvbox"
+
+[editor]
+true-color = true
